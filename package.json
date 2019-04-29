@@ -1,0 +1,20 @@
+{
+  "name": "express-ads-api",
+  "version": "1.0.0",
+  "description": "https://auth0.com/blog/node-js-and-express-tutorial-building-and-securing-restful-apis/?fbclid=IwAR2SipZ4mziqzK1ZO5P-WwfFGWk8inobECsjm1U2wog5kyqAvQhuH-cZ6zM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilomacb/express-ads-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilomacb/express-ads-api/issues"
+  },
+  "homepage": "https://github.com/danilomacb/express-ads-api#readme"
+}
