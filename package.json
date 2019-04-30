@@ -3,6 +3,16 @@
   "version": "1.0.0",
   "description": "https://auth0.com/blog/node-js-and-express-tutorial-building-and-securing-restful-apis/?fbclid=IwAR2SipZ4mziqzK1ZO5P-WwfFGWk8inobECsjm1U2wog5kyqAvQhuH-cZ6zM",
   "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "mongodb": "^3.2.3",
+    "mongodb-memory-server": "^5.1.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,15 +26,5 @@
   "bugs": {
     "url": "https://github.com/danilomacb/express-ads-api/issues"
   },
-  "homepage": "https://github.com/danilomacb/express-ads-api#readme",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "helmet": "^3.16.0",
-    "body-parser": "^1.19.0",
-    "mongodb": "^3.2.3",
-    "mongodb-memory-server": "^5.1.0",
-    "morgan": "^1.9.1"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/danilomacb/express-ads-api#readme"
 }
