@@ -24,7 +24,7 @@ app.use(cors());
 app.use(morgan("combined"));
 
 // defining an endpoint to return all ads
-app.get("/", async (req, res) => {
+app.get("/tasks", async (req, res) => {
   res.send(await getAds());
 });
 
